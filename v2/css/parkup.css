@@ -218,7 +218,8 @@ section[id], h2[id] { scroll-margin-top: 0; }
   display: flex; flex-wrap: wrap; gap: 10px calc(56 * var(--u));
   margin: calc(44 * var(--u)) 0 0; padding: 0; list-style: none;
   font-family: var(--head); font-weight: 500;
-  font-size: max(19px, calc(32.765 * var(--u))); line-height: .907; letter-spacing: -.05em;
+  font-size: max(17px, calc(26 * var(--u))); line-height: .907; letter-spacing: -.04em;
+  color: var(--beige); /* beige and smaller so the neon stays with the headline and feature titles */
 }
 .event-meta a { text-decoration: none; background-image: linear-gradient(currentColor, currentColor); background-size: 0 2px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size .4s var(--ease-gravity); }
 .event-meta a:hover { background-size: 100% 2px; }
@@ -664,7 +665,7 @@ html:not([data-intro="3"]) .footer-compact { display: none; }
   .hero-step--c { left: 52vw; top: 0; bottom: 56%; width: 48vw; }
   .hero-arrow { left: auto; right: 0; top: 0; width: 38vw; height: auto; }
   .hero-copy, [data-intro="3"] .hero-copy { position: relative; left: auto; top: auto; width: 100%; }
-  .event-meta { margin-top: 22px; gap: 8px 22px; font-size: 20px; }
+  .event-meta { margin-top: 22px; gap: 8px 22px; font-size: 18px; }
   .hero-copy .btn { margin-top: 24px; }
   .hero-intro { margin-top: 18px; font-size: 21px; }
   .hero-features { grid-template-columns: 1fr; gap: 14px; margin-top: 24px; }
